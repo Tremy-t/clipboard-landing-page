@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+  --cyan : hsl(171, 66%, 44%);
+  --light-blue :hsl(233, 100%, 69%);
+  --grayish:hsl(201, 11%, 66%);
+  --dark-grayish-blue:hsl(210, 10%, 33%);
+  --custom: rgb(245, 246, 248);
+}
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.main-section{
+  background-image: url(../images/bg-header-desktop.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main,.text,.container,.container-three,.container-four,.last-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  padding-top: 5.5rem;
+}
+.text{
+  line-height: 0;
+}
+.text h1{
+  font-size: 2.5rem;
+  color: var(--dark-grayish-blue);
+}
+.text p,.last-text p{
+  width: 65%;
+  line-height: 1rem;
+  text-align: center;
+  color: var(--grayish);
+}
+.logo{
+  width: 4.5rem;
+  padding-bottom: 2rem;
+}
+.cta{
+  padding-top: 1rem;
+  
+}
+.ios-download-btn{
+  background-color: var(--cyan);
+  border: none;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  margin-right: 2rem;
+  border-bottom: 4px solid rgb(33, 157, 133);
+  box-shadow: 0px 0px 5px 0px rgb(33, 157, 133);
+  transition: 0.5s;
+}
+.ios-download-btn:hover,.mac-download-btn:hover{
+  opacity: 0.8;
+ 
+}
+.mac-download-btn{
+  background-color: var(--light-blue);
+  border: none;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  border-bottom: 4px solid rgb(83, 98, 217);
+  box-shadow: 0px 0px 5px 0px rgb(83, 98, 217);
+  transition: 0.5s;
+}
+
+
+
+.container h2{
+  font-size: 2rem;
+  color: var(--dark-grayish-blue);
+  padding-top: 4rem;
+}
+.container,.container-three{
+  padding-top: 4rem;
+}
+.container p{
+  width: 45%;
+  text-align: center;
+  line-height: 1.5rem;
+  color: var(--grayish);
+}
+.image-text-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-top: 7rem;
+}
+.computer{
+  width: 90%;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  width: 40%;
+}
+.info-one h2{
+  font-size: 1.5rem;
+  color: var(--dark-grayish-blue);
+  padding-bottom: 1rem;
+}
+.info-one p{
+  width: 65%;
+  line-height: 1.5rem;
+  color: var(--grayish);
+}
+
+
+
+.container-three{
+  line-height: 0;
+}
+.container-three h2{
+  font-size: 2rem;
+  color: var(--dark-grayish-blue);
+  padding-top: 4rem;
+}
+.container-three p{
+  width: 75%;
+  text-align: center;
+  line-height: 1.5rem;
+  color: var(--grayish);
+}
+
+.image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
+}
+.devices{
+  width: 85%;
+}
+
+
+
+.top h2{
+  font-size: 2rem;
+  color: var(--dark-grayish-blue);
+  padding-top: 4rem;
+}
+.top p{
+  text-align: center;
+  line-height: 1.5rem;
+  color: var(--grayish);
+}
+.bottom-one h3{
+  font-size: 1.5rem;
+  color: var(--dark-grayish-blue);
+  padding-bottom: 1rem;
+}
+.bottom-one p{
+  width: 75%;
+  text-align: center;
+  line-height: 1.5rem;
+  color: var(--grayish);
+}
+.bottom{
+  display: flex;
+  line-height: 0.6rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bottom-one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  text-align: center;
+}
+.bottom-one p{
+  line-height: 1.5rem;
+}
+
+
+.sponsor{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ gap:5rem;
+ padding-top: 6rem;
+ padding-bottom: 6rem;
+}
+
+.two,.socials{
+  display: flex;
+}
+.socials img{
+  width: 3rem;
+  height: 3rem;
+}
+.socials{
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.two ul{
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  list-style: none;
+  line-height: 2rem;
+  color: var(--dark-grayish-blue);
+}
+.social-sec{
+  width: 100%;
+  background-color: var(--custom);
+}
+.last-text{
+  padding-bottom: 5rem;
+}
+.last-text h1{
+  font-size: 2rem;
+  color: var(--dark-grayish-blue);
+}
+.two,.three{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.three img{
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
