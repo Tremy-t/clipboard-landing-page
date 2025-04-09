@@ -20,7 +20,7 @@ body{
   margin: 0;
 }
 .main-section{
-  background-image: url(../images/bg-header-desktop.png);
+  background-image: url(./images/bg-header-desktop.png);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
